@@ -1,1 +1,9 @@
+# Which operformance metrics penalises the number of features you use for modeling?
 
+One such metric is the Akaike information criterion (AIC), which is a measure of the goodness of fit of a statistical model that penalizes the number of features used. The AIC is defined as the negative log-likelihood of the model, plus a penalty term that is proportional to the number of features used in the model. The penalty term is used to discourage the use of too many features, as it increases the complexity of the model and can lead to overfitting.
+
+Another metric that penalizes the number of features used is the Bayesian information criterion (BIC), which is similar to the AIC but has a stronger penalty term. The BIC is defined as the negative log-likelihood of the model, plus a penalty term that is proportional to the number of features used in the model and the sample size.
+
+Other performance metrics that penalize the number of features used include the adjusted R-squared and the Mallows' Cp.
+
+It is worth noting that these metrics are not always the best choice for evaluating the performance of a machine learning model, as they may not always accurately reflect the generalization performance of the model. In addition, they may not be applicable to all types of models. It is important to choose an appropriate performance metric based on the characteristics of the data and the goals of the modeling task.
