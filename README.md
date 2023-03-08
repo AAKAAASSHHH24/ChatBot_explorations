@@ -1,1 +1,1 @@
-# ChatGPT-explorations
+# Chat-BOT-explorations
